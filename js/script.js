@@ -1,3 +1,5 @@
+const text = document.getElementById('text');
+
 let members = [
     {
         nome: 'Wayne Barnett',
@@ -33,4 +35,5 @@ let members = [
 
 for (i = 0; i < members.length; i++) {
     console.log(members[i].nome, members[i].ruolo, members[i].foto)
+    text.innerHTML += `${members[i].nome}, ${members[i].ruolo}, ${members[i].foto} <br>`
 }
