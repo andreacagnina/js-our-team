@@ -60,6 +60,7 @@ function createCard() {
     return card
 }
 
+
 let newRow = createRow();
 
 container.append(newRow);
