@@ -1,4 +1,7 @@
-const text = document.getElementById('text');
+const container = document.getElementById('container');
+container.classList.add('text-center', 'my-5');
+container.innerHTML = `<h1>ciao</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repellendus dolorem nam! Culpa vitae enim labore tenetur odio ipsam iusto id praesentium sint iure facere, qui, excepturi doloremque, accusantium voluptatem?</p>`
+
 
 let members = [
     {
