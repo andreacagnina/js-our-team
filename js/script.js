@@ -1,4 +1,4 @@
-let member = [
+let members = [
     {
         nome: 'Wayne Barnett',
         ruolo: 'Founder & CEO',
@@ -30,3 +30,7 @@ let member = [
         foto: 'barbara-ramos-graphic-designer.jpg'
     }
 ];
+
+for (i = 0; i < members.length; i++) {
+    console.log(members[i].nome, members[i].ruolo, members[i].foto)
+}
