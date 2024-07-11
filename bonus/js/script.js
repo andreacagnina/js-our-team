@@ -71,7 +71,7 @@ for (i = 0; i < members.length; i++) {
     let newCont = createCont();
     let newCard = createCard();
     console.log(members[i].nome, members[i].ruolo, members[i].foto)
-    newCard.innerHTML += `<img src="../img/${members[i].foto}"><div class="card-body"><h5 class="card-title">${members[i].nome}</h5> <p class="card-text fst-italic">${members[i].ruolo}</p></div>`
+    newCard.innerHTML += `<img src="./img/${members[i].foto}"><div class="card-body"><h5 class="card-title">${members[i].nome}</h5> <p class="card-text fst-italic">${members[i].ruolo}</p></div>`
     newRow.append(newCol);
     newCol.append(newCont);
     newCont.append(newCard);
